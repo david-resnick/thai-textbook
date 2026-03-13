@@ -1,0 +1,14 @@
+Comparison Statistics (Nilsen 4000):
+------------------------------------------------------------
+Generated on: 2026-03-13 15:16:21.735959
+
+NILSEN LIST SUMMARY (Source: freq-4000-Thai Frequency Dictionary (Jørgen Nilsen) dump.csv)
+  Total words in common list: 4000
+  Words present in Anki:      873 (21.8%)
+  Words missing from Anki:    3127 (78.2%)
+
+ANKI DECK SUMMARY (Deck: Thai::vocab)
+  Total notes in Anki deck:   1426
+  Words found in Nilsen list: 878 (61.6%)
+  Words NOT in Nilsen list:   548 (38.4%)
+------------------------------------------------------------
