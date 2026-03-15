@@ -29,9 +29,9 @@ def clean_text(text):
     return text
 
 def main():
-    print(f"[{datetime.now()}] Starting cross-model duplicate audit (excluding Freq 4000)...")
+    print(f"[{datetime.now()}] Starting cross-model duplicate audit (excluding ~Freq 4000)...")
     
-    res = invoke("findNotes", query='-deck:"Freq 4000"')
+    res = invoke("findNotes", query='-deck:"~Freq 4000"')
     note_ids = res.get("result", [])
     if not note_ids:
         print("No notes found.")

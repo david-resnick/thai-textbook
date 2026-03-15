@@ -30,13 +30,13 @@ def main():
     print(f"[{datetime.now()}] Starting Anki export...")
     
     # 1. Get Note-to-Deck mapping
-    print("Building deck mapping...")
+    print("Building deck mapping (excluding Freq 4000)...")
     res_decks = invoke("deckNames")
     if res_decks.get("error"):
         print(f"Failed to get decks: {res_decks['error']}")
         return
     
-    deck_names = res_decks.get("result", [])
+    deck_names = [d for d in res_decks.get("result", []) if d != "~Freq 4000"]
     note_id_to_deck = {}
     for deck in deck_names:
         ids = invoke("findNotes", query=f'deck:"{deck}"').get("result", [])
@@ -44,8 +44,8 @@ def main():
             note_id_to_deck[nid] = deck
     
     # 2. Get all note IDs
-    print("Finding all notes...")
-    res = invoke("findNotes", query="*")
+    print("Finding notes to export...")
+    res = invoke("findNotes", query='-deck:"~Freq 4000"')
     if res.get("error"):
         print(f"Failed to find notes: {res['error']}")
         return
