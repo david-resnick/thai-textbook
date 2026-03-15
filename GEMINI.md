@@ -37,6 +37,7 @@ Use `./thai --help` to see all available categories and subcommands.
 - **Vocab Formatting:** Notes in `Thai::vocab` must **NOT** have outer quotation marks.
 - **Phrase Formatting:** Notes in `Thai::~phrases` must be surrounded by standard double quotes (e.g., `"phrase"`). 
 - **AnkiConnect:** Anki must be running locally with the AnkiConnect add-on enabled on port 8765.
+- **GitHub Account:** Always use the `david-resnick` account for git operations in this repository. Use `gh auth switch --hostname github.com --user david-resnick` if needed.
 
 ## Script Standards
 - **Location:** All logic resides in the `thai-cli/` directory.
