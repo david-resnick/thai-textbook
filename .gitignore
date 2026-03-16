@@ -1,0 +1,8 @@
+cookie.txt
+.DS_Store
+
+# Ignore all generated CSV files in subfolders
+*/**/*.csv
+
+# Exception for dump_freq_4000
+!dump_freq_4000/*.csv

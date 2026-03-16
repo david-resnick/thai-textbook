@@ -1,0 +1,14 @@
+Comparison Statistics:
+------------------------------------------------------------
+Generated on: 2026-03-12 17:40:38.115518
+
+COMMON LIST SUMMARY (Source: thai_5000_common.txt)
+  Total words in common list: 5050
+  Words present in Anki:      1144 (22.7%)
+  Words missing from Anki:    3906 (77.3%)
+
+ANKI DECK SUMMARY (Deck: Thai::vocab)
+  Total notes in Anki deck:   1426
+  Words found in common list: 646 (45.3%)
+  Words NOT in common list:   780 (54.7%)
+------------------------------------------------------------

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../anki-addons"
+		},
+		{
+			"path": "../anki-addon-adjust-review-times"
+		}
+	],
+	"settings": {}
+}
