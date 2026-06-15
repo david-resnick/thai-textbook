@@ -50,7 +50,7 @@ def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = os.path.join(OUTPUT_DIR, f"nilsen_missing_{timestamp}.csv")
+    output_file = os.path.join(OUTPUT_DIR, f"{timestamp}_nilsen_missing.csv")
 
     with open(output_file, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["Front", "Back", "Audio", "tags"])

@@ -16,6 +16,7 @@ COMMANDS = {
     },
     "Vocab Analysis": {
         "nilsen-missing": ("nilsen_missing.py", "Finds words from the Jørgen Nilsen dictionary missing from Anki."),
+        "generate-sentences": ("generate_sentences.py", "Generates Anki-importable sentences for missing vocabulary."),
         "fetch-common": ("get_thai_5000.py", "Downloads the top 5000 common Thai words."),
         "compare-vocab": ("compare_common_vocab.py", "Cross-references Anki vocab with common word lists."),
         "translate-missing": ("translate_missing_vocab.py", "Translates missing words using Google Translate."),

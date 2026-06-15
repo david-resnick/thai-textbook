@@ -51,3 +51,4 @@ Use `./thai --help` to see all available categories and subcommands.
 - `cross_model_dupes/`: Output directory for duplicate reports.
 - `nilsen_missing/`: Output directory for missing frequency word reports.
 - `compare_common_vocab/`: Data and results for vocab gap analysis.
+- `../anki-addons/`: Additional folder in scope containing custom Anki addons and scripts.

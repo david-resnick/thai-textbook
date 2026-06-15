@@ -43,4 +43,7 @@ Ensure both MCP servers are active in your `~/.gemini/settings.json`:
 - `anki-mcp`: For local Anki-Connect integration (`http://localhost:8765`).
 - `notebooklm`: For interaction with your curriculum via `/Users/dresnick/.local/bin/notebooklm-mcp`.
 
+### NotebookLM Authentication
+If authentication expires, you can re-authenticate using `nlm login`. If the automatic browser extraction fails, follow the [Manual Cookie Extraction Guide](https://github.com/jacob-bd/notebooklm-mcp-cli/blob/main/docs/AUTHENTICATION.md#how-to-extract-cookies-manually) to provide a `cookie.txt` file.
+
 *Last Updated: 2026-03-07*
