@@ -52,3 +52,4 @@ Use `./thai --help` to see all available categories and subcommands.
 - `nilsen_missing/`: Output directory for missing frequency word reports.
 - `compare_common_vocab/`: Data and results for vocab gap analysis.
 - `../anki-addons/`: Additional folder in scope containing custom Anki addons and scripts.
+- `../anki-addon-adjust-review-times/`: Additional folder in scope containing the Anki add-on to adjust review times.
